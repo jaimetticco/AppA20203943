@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/photosFragment">
+    <fragment
+        android:id="@+id/photosFragment"
+        android:name="com.admin.appa20203943.view.fragments.PhotosFragment"
+        android:label="fragment_photos"
+        tools:layout="@layout/fragment_photos" />
+    <fragment
+        android:id="@+id/todosFragment"
+        android:name="com.admin.appa20203943.view.fragments.TodosFragment"
+        android:label="fragment_todos"
+        tools:layout="@layout/fragment_todos" />
+</navigation>
